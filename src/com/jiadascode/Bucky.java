@@ -14,6 +14,18 @@ public class Bucky {
                 System.out.println(w + " ends with unk");
             }
         }
+
+        String s = "dnwuunauonnoafklefa";
+        System.out.println(s.indexOf('k', 5));
+
+        String a = "Bacon ";
+        String b = "Monster";
+
+        System.out.println(a.concat(b));
+        System.out.println(a.replace('B', 'F'));
+        System.out.println(b.toUpperCase());
+        System.out.println(a);
+        System.out.println(a.trim());
     }
 }
 
