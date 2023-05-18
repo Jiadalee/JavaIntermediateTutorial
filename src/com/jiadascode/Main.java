@@ -3,6 +3,7 @@ package com.jiadascode;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    Bucky bucky = new Bucky();
+        System.out.println(bucky);
     }
 }
